@@ -36,7 +36,7 @@ public class GameMaster extends ApplicationAdapter{
         }
 
         // Create a Circle Object. Circle starts at x=400, y=300, radius=50, speed=200, color=red
-        CircleObject circle = new CircleObject(400, 300, 50, 200, "red"); 
+        CircleObject circle = new CircleObject(400, 300, 50, 200, "pink"); 
         
         // Create a Triangle Object. Triangle starts at x=200, y=200, width=100, height=100, speed=200, color=blue
         TriangleObject triangle = new TriangleObject(200, 200, 100, 100, 200, "blue");

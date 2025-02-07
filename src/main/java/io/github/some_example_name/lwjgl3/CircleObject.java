@@ -25,7 +25,7 @@ class CircleObject extends Entity {
  @Override
  public void draw(SpriteBatch batch) {
      shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
-     shapeRenderer.setColor(1, 0, 0, 1); // Example: hardcoding red color
+     shapeRenderer.setColor(1, 0, 1, 1); // Example: hardcoding red color
      shapeRenderer.circle(x, y, radius);
      shapeRenderer.end();
  }
